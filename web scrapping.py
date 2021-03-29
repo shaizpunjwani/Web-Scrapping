@@ -7,7 +7,7 @@ Created on Fri Mar 19 22:54:36 2021
 
 from bs4 import BeautifulSoup
 
-with open('base.html','r') as html_file:
+with open(filename,'r') as html_file:
     txt=html_file.read()
     
     #lxml is used as an parser in beautiful soup and we used prettify to read the contents in the html file.
